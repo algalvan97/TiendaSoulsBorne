@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda SoulsBorne</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@1,400;1,700&family=Open+Sans:wght@400;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">Souls<span class="logo__bold">Borne</span> Store</h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                    <a href="explora.html" class="navegacion__enlace">Explora</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__texto">
+            <h2 class="no-margin">La mejor tienda de la saga Dark Souls y Bloodborne</h2>
+            <p class="header__mensaje">Encuentra los mejores accesorios, ropa, juegos y demas de los populares
+                juegos de FromSoftware</p>
+        </div>
+    </header>
+        <main class="contenedor">
+            <h1 class="producto__titulo">Dark Souls</h1>
+            <div class="productos">
+                <div class="productos__venta">
+                    <img src="img/polo.jpg" alt="imagen-polo">
+                    <div class="producto__texto">
+                        <p>Sed mi lacus, ultrices in congue a, ullamcorper vitae ligula. Suspendisse faucibus enim est, nec ultrices ante volutpat et. 
+                           Donec urna purus, laoreet eu imperdiet tristique, semper sed tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                           Maecenas erat tellus, consectetur sit amet urna a, imperdiet sollicitudin arcu. Aenean quis dapibus nunc.
+                        </p>
+                        <form class="formulario__producto">
+                            <select class="formulario__campo">
+                                <option disabled selected>--Seleccionar Talla--</option>
+                                <option>Small</option>
+                                <option>Medium</option>
+                                <option>Large</option>
+                                <option>XL</option>
+                            </select>
+                        </form>
+                        <input class="formulario__boton boton" type="submit" value="Agregar al Carrito">
+                    </div>
+                </div>
+
+                <div class="productos__venta">
+                    <img src="img/figura.jpg" alt="imagen-figura">
+                    <div class="producto__texto">
+                        <p>Duis accumsan quis diam eget pellentesque. Curabitur lacinia metus a eleifend volutpat. Suspendisse congue tellus rutrum massa dignissim, eu hendrerit velit molestie. 
+                           Nulla laoreet vel velit vel faucibus. Morbi consequat magna at risus ornare ullamcorper. 
+                           Morbi tempus sem libero. Suspendisse ultrices malesuada urna sed convallis.
+                        </p>
+                        <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                        <input class="formulario__boton boton" type="submit" value="Agregar al Carrito">
+                    </div>
+                </div>
+
+                <div class="productos__venta">
+                    <img src="img/poster.jpg" alt="imagen-poster">
+                    <div class="producto__texto">
+                        <p>In vehicula eu massa quis lobortis. Phasellus a mauris felis. Nunc eget blandit erat, in egestas ipsum. 
+                           Nam feugiat finibus sodales. Nulla molestie urna at euismod fermentum. Duis viverra auctor ornare. 
+                           Vestibulum sodales imperdiet rutrum. Nam ante nibh, porttitor sit amet molestie nec, molestie non lacus.
+                        </p>
+                        <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                        <input class="formulario__boton boton" type="submit" value="Agregar al Carrito">
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="contenedor">
+                <h3 class="no-margin titulos">Trabajamos con las siguientes marcas</h3>
+                <div class="footer__barra">
+                    <img class="footer__imagen" src="img/amazons.png" alt="logo-amazon">
+                    <img class="footer__imagen" src="img/ebay.png" alt="logo-ebay">
+                    <img class="footer__imagen" src="img/target.jpg" alt="logo-target">
+                    <img class="footer__imagen" src="img/fromsoftware.png" alt="logo-fromsoftware">
+                </div>
+            </div>
+            <p>Página realizada por Jhoel Alexis Galván Jaimes con motivo de práctica, todos los derechos reservados 2021.</p>
+        </footer>
+</body>
+</html>
